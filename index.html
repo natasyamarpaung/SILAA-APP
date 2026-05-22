@@ -1,137 +1,143 @@
 <!DOCTYPE html>
-<html lang="id">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SILA — Sistem Informasi Layanan Akademik</title>
+    <title>SILA - Sistem Informasi Layanan Akademik</title>
+    <link rel="stylesheet" href="style 1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <!-- HEADER & NAVIGASI -->
-    <header class="navbar">
+    <!-- Awal Header -->
+     <header class="navbar">
         <div class="container navbar-inner">
             <a href="index.html" class="logo">🎓 SILA</a>
             <input type="checkbox" id="navToggle" class="nav-toggle">
-            <label for="navToggle" class="hamburger">
+            <label for="navToggle" class="navToggleMenu">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="active">Beranda</a></li>
+                    <li><a href="index.html"class='active'>Beranda</a></li>
                     <li><a href="layanan.html">Ajukan Layanan</a></li>
                     <li><a href="riwayat.html">Riwayat</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
+        
+     </header>
+     <hr>
+     <!-- Akhir Header -->
 
-    <main>
-
-        <!-- Hero -->
-        <section class="hero">
+     <!-- Awal Main -->
+      <main>
+        <!-- section 1:Welcome -->
+         <section class="hero">
             <div class="container">
-                <h1>Sistem Informasi<br>Layanan Akademik</h1>
-                <p>Ajukan layanan akademik Anda dengan mudah dan pantau prosesnya secara real-time.<br>Tanpa antri,
-                    tanpa ribet.</p>
-                <div class="hero-buttons">
-                    <a href="layanan.html" class="btn btn-primary">🚀 Ajukan Sekarang</a>
-                    <a href="riwayat.html" class="btn btn-outline">📋 Lihat Riwayat</a>
+                <h1> Sistem Informasi <BR>Layanan Akademik</h1>
+                <p>Ajukan layanan akademik Anda dengan mudah dan pantau cara realtime.<br> Tanpa antri,tanpa ribet</p>
+                <div class="hero-button">
+                    <!-- link cepat -->
+                    <a href="layanan.html" class="btn btn-primary">🚀ajukan sekarang</a>
+                    <a href="riwayat.html" class="btn btn-outline"> Lihat Riwayat </a>
                 </div>
             </div>
-        </section>
+         </section>
 
-        <!-- Daftar Layanan -->
-        <section class="section">
+         <!-- section 2; Daftar Layanan -->
+          <section class="section">
             <div class="container">
-                <h2>Layanan Kami</h2>
-                <p class="section-desc">Pilih layanan yang Anda butuhkan dan ajukan dalam hitungan detik.</p>
-                <div class="cards-grid">
+                <h2> Layanan Kami</h2>
+                <p class="section-desc">Pilih layanan yang anda butuhkan dan ajukan dalam hitungan detik.</p>
+                <div class="grid-cards">
                     <article class="card">
-                        <h3>📄 Surat Aktif Kuliah</h3>
-                        <p>Bukti bahwa mahasiswa terdaftar aktif dalam program studi saat ini.</p>
-                        <span class="card-code">SKA</span>
+                        <h3>📃 Surat Aktif Kuliah</h3>
+                        <p>Bukti bahwa mahasiswa terdaftar aktif dalam program studi saat ini</p>
+                        <span class="badge">SAK</span>
                     </article>
                     <article class="card">
                         <h3>📅 Cuti Akademik</h3>
-                        <p>Permohonan izin cuti sementara dari program akademik yang sedang ditempuh.</p>
-                        <span class="card-code">CAK</span>
+                        <p>Permohonan izin cuti sementara dari program akademik yang sedang di tempuh</p>
+                        <span class="badge">CAK </span>
                     </article>
                     <article class="card">
-                        <h3>📜 Transkrip Nilai</h3>
-                        <p>Dokumen akademik berisi rekap nilai mata kuliah yang telah ditempuh.</p>
-                        <span class="card-code">TNM</span>
+                        <h3>📜 Transkrip Akademik</h3>
+                        <p>Dokumen yang Berisi rekap nilai mata kuliah yang sedang di tempuh</p>
+                        <span class="badge">TNM </span>
                     </article>
                     <article class="card">
-                        <h3>✏️ Perubahan Data</h3>
-                        <p>Permohonan perubahan data akademik seperti nama, program studi, dan lainnya.</p>
-                        <span class="card-code">PDA</span>
+                        <h3>🖊️ Perubahan Data Akademik</h3>
+                        <p>Permohonan perubahan data akademik seperti nama,alamat,dan informasi lainnya</p>
+                        <span class="badge">PDA </span>
                     </article>
                 </div>
             </div>
-        </section>
+         </section>
+         <!-- akhir section 2 -->
 
-        <!-- Cara Mengajukan -->
-        <section class="section">
+        <!-- section 3:Cara mengajukan -->
+         <section class="section">
             <div class="container">
                 <h2>Cara Mengajukan</h2>
-                <p class="section-desc">Proses pengajuan layanan akademik semudah 3 langkah:</p>
-                <div class="steps-grid">
+                <p class="section-desc">Proses pengajuan layanan akademik semudah 3 langkah</p>
+                <div class="grid-step">
                     <div class="step">
-                        <div class="step-number">1</div>
+                        <div class="number">1</div>
                         <h3>Isi Form</h3>
-                        <p>Lengkapi data pengajuan Anda</p>
+                        <p>Lengkap data pengajuan Anda</p>
                     </div>
                     <div class="step">
-                        <div class="step-number">2</div>
+                        <div class="number">2</div>
                         <h3>Submit Data</h3>
                         <p>Klik tombol submit untuk mengirim</p>
                     </div>
                     <div class="step">
-                        <div class="step-number">3</div>
+                        <div class="number">3</div>
                         <h3>Cek Riwayat</h3>
-                        <p>Pantau status pengajuan Anda</p>
+                        <p>Pantau Status pengajuan Anda</p>
                     </div>
                 </div>
+               
             </div>
-        </section>
+         </section>
+         <hr>
 
-        <!-- Statistik -->
-        <section class="section">
+         <!-- Section 4: Statistik -->
+          <!-- Section 4: Statistik -->
+           <section class="section">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat">
-                        <div class="stat-number">0</div>
-                        <div class="stat-label">Total Pengajuan</div>
+                <h2>Statistic</h2>
+                <div class="statistik-grid">
+                    <div class="statistik">
+                        <div class="statistik-number">0</div>
+                        <div class="statistik-label">total pengajuan</div>
                     </div>
-                    <div class="stat">
-                        <div class="stat-number">4</div>
-                        <div class="stat-label">Jenis Layanan</div>
+                    <div class="statistik">
+                        <div class="statistik-number">4</div>
+                        <div class="statistik-label">jenis layanan</div>
                     </div>
-                    <div class="stat">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">Akses Kapan Saja</div>
+                    <div class="statistik">
+                        <div class="statistik-number">24/7</div>
+                        <div class="statistik-label">Akses Kapan Saka</div>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
+    <hr>  
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container footer-inner">
-            <div>
-                <strong>🎓 SILA</strong>
-                <p>Platform digital untuk pengajuan layanan akademik mahasiswa.</p>
-            </div>
+      </main>
+      <!-- akhir Main -->
+
+      <!-- awal footer -->
+      <footer>
+        <p><b>SILA</b> - Sistem Informasi Layanan Akademik</p>
+        <p>Platform Digital untuk pengajuan layanan akademik mahasiswa</p>
+        <p>
             <div class="footer-nav">
                 <h4>Navigasi</h4>
                 <ul>
@@ -140,14 +146,14 @@
                     <li><a href="riwayat.html">Riwayat</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p>&copy; 2026 SILA — Dibuat untuk tugas Pemrograman Web</p>
-            </div>
-        </div>
-    </footer>
+        </p>
+        <p>&copy; 2026 SILA - Dibuat untuk tugas pemrograman web</em></p>
+      </footer>
+      <!--akhir footer -->
+      
+    
 
+
+    
 </body>
-
 </html>
